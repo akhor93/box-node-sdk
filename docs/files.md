@@ -162,7 +162,7 @@ New versions of a file can be uploaded with the
 ```js
 var fs = require('fs');
 var stream = fs.createReadStream('/path/to/file');
-client.files.uploadFile('98768', stream, callback);
+client.files.uploadNewFileVersion('98768', stream, callback);
 ```
 
 Download a Previous Version of a File
